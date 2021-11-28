@@ -1,0 +1,7 @@
+(03) Web Request:--
+
+GET :Request Info
+POST:Add to DataBase
+PUT: Edit to DataBase
+DELETE: Delete to DataBase
+
