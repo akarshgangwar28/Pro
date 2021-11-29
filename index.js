@@ -2,6 +2,12 @@ const express = require('express')
 const format = require('date-format');
 
 const app = express()
+
+const swaggerUi = require('swagger-ui-express');
+const YAML = require('yamljs');
+const swaggerDocument = YAML.load('./swagger.yaml');
+
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 const port = process.env.PORT || 4000
 
 app.get('/', (req, res) => {
@@ -29,8 +35,6 @@ app.get('/api/v1/facebook',(req,res)=>{
   res.status(200).json(facebookSocial);
 
 })
-
-
 
 app.get('/api/v1/Linkedin',(req,res)=>{
   //  var datetime = new Date();
