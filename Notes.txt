@@ -5,3 +5,17 @@ POST:Add to DataBase
 PUT: Edit to DataBase
 DELETE: Delete to DataBase
 
+
+Swagger :
+
+=> Swagger is an open source API documaentation framework to help developers in design, document and cosume RESTful web services.
+
+=> Swagger reads an API and extract int the form of interactive UI called as "Swagger UI"
+
+=> Swagger UI offers HTML view of an API with JSON support.
+
+=> is most popular tool for genrating ineteractive documentation from API.
+
+
+Swagger VS PostMan
+
