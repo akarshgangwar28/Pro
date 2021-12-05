@@ -20,5 +20,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akarshgangwar28/Pro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/akarshgangwar28/Pro/issues"
+  },
+  "homepage": "https://github.com/akarshgangwar28/Pro#readme"
 }
